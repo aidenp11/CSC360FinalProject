@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSC360FinalProject.Factories
 {
-	internal interface IProductFactory
+	// Abstract factory for creating products
+	public interface IProductFactory
 	{
+		IProduct CreateProduct(string productType);
 	}
 }

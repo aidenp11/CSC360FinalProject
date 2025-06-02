@@ -9,8 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Observers\" />
-    <Folder Include="Factories\" />
-    <Folder Include="Adapters\" />
   </ItemGroup>
 
 </Project>

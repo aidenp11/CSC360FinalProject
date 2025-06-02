@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSC360FinalProject.Factories
 {
-	internal class Console
+	// Concrete product for a Xbox
+	public class Xbox : IProduct
 	{
+		public string Name => "Console";
+		public float Price => 499.99f;
 	}
 }

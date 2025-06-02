@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSC360FinalProject.Factories
 {
-	internal class Game
+	// Concrete product for Minecraft
+	public class Minecraft : IProduct
 	{
+		public string Name => "Minecraft";
+		public float Price => 19.99f;
 	}
 }

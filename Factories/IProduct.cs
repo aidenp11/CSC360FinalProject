@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSC360FinalProject.Factories
 {
-	internal interface IProduct
+	// Abstract factory interface for products with a name and a price
+	public interface IProduct
 	{
+		string Name { get; }
+		float Price { get; }
 	}
 }
