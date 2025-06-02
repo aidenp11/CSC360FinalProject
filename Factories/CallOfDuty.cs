@@ -9,7 +9,7 @@ namespace CSC360FinalProject.Factories
 	// Concrete product for Call of Duty
 	public class CallOfDuty : IProduct
 	{
-		public string Name => "Call of Duty";
+		public string Name => "Call Of Duty";
 		public float Price => 59.99f;
 	}
 }

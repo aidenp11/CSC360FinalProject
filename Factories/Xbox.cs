@@ -9,7 +9,7 @@ namespace CSC360FinalProject.Factories
 	// Concrete product for a Xbox
 	public class Xbox : IProduct
 	{
-		public string Name => "Console";
+		public string Name => "Xbox";
 		public float Price => 499.99f;
 	}
 }
