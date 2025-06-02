@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Controller\" />
-    <Folder Include="View\" />
+    <Folder Include="Observers\" />
+    <Folder Include="Factories\" />
+    <Folder Include="Adapters\" />
   </ItemGroup>
 
 </Project>
